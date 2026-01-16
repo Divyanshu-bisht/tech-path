@@ -1,0 +1,50 @@
+.bot-container {
+  position: fixed;
+  bottom: 0px;
+  right: 24px;
+  width: 180px;
+  height: 180px;
+  z-index: 1000;
+
+  pointer-events: none; /* allows page interaction */
+}
+
+@media (max-width: 768px) {
+  .bot-container {
+    width: 140px;
+    height: 140px;
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+
+.bot-review-popup {
+  position: fixed;
+  bottom: 140px; /* above bot */
+  right: 30px;
+  width: 260px;
+  background: rgba(20, 20, 20, 0.95);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  z-index: 9999;
+}
+
+.bot-review-text {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.bot-review-button {
+  width: 100%;
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
