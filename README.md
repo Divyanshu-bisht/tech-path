@@ -1,16 +1,57 @@
-# React + Vite
+# Guided User Behavior Review Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend-focused web experience designed to **guide users through a controlled flow** while observing and reviewing how they interact with the interface.  
+The project emphasizes **user behavior, engagement patterns, and experience-driven design** rather than traditional page navigation.
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was built to explore how user behavior changes when the interface controls pacing, scrolling, and interaction flow.  
+Instead of allowing unrestricted navigation, the experience deliberately **guides users step-by-step**, enabling meaningful observation of how users respond to prompts, content, and interaction points.
 
-## React Compiler
+The application functions as both a **demo experience** and a **behavior review system**, making it suitable for portfolios and product-thinking showcases.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Core Ideas
 
-## Expanding the ESLint configuration
+- Guided user flow instead of free scrolling
+- Interaction-based progression
+- Observing engagement through user actions
+- Experience-first UI design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** – state-driven UI and component architecture  
+- **CSS** – layout control, transitions, and visual hierarchy  
+- **JavaScript** – flow logic, interaction tracking, and state management  
+
+## 🎯 Key Features
+
+- Controlled scrolling to manage pacing and attention
+- Step-based flow for structured user journeys
+- Interactive popups and prompts
+- Review mode to evaluate user interaction behavior
+- Modular architecture to extend flows and steps easily
+
+## 🧪 What This Project Explores
+
+- How users behave in **guided vs free navigation**
+- How interaction timing affects engagement
+- How UI constraints can improve clarity and focus
+- Designing interfaces with **intentional friction**
+
+## 📚 What I Learned
+
+- Thinking in terms of **user journeys**, not screens
+- Designing UI flows that communicate intent clearly
+- Balancing control with usability
+- Building systems that support observation and iteration
+
+## 🚀 Possible Enhancements
+
+- Analytics-based behavior visualization
+- Session-based interaction summaries
+- Adaptive flows based on user behavior
+- Expanded review logic for deeper insights
+
+## 📄 Note
+
+This project was built as an exploration of **experience-led frontend development**, focusing on how users interact, react, and progress through intentionally designed UI flows.
