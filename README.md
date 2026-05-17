@@ -4,6 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
 A frontend-focused web experience designed to **guide users through a controlled flow** while observing and reviewing how they interact with the interface.  
 The project emphasizes **user behavior, engagement patterns, and experience-driven design** rather than traditional page navigation.
 
